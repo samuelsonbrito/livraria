@@ -1,0 +1,24 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "site da casa do codigo",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=test&& mocha --reporter spec"
+  },
+  "author": "Samuelson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-load": "^1.1.15",
+    "express-validator": "^3.1.2",
+    "mysql": "^2.13.0",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
