@@ -1,7 +1,7 @@
 {
-  "name": "casadocodigo",
+  "name": "livraria",
   "version": "1.0.0",
-  "description": "site da casa do codigo",
+  "description": "site de vendas de livros",
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=test&& mocha --reporter spec"
